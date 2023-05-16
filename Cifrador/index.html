@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Source+Code+Pro:wght@200;500;800&display=swap');
+</style>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/5ddff5324b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://i.postimg.cc/5N5ShNCV/Logo-sobre-moda-femenina-minimalista-neutral-Photo-Room-png-Photo-Room.png" alt="logo">
+        </div>
+    <nav class="nav">
+        <a href="https://ko-fi.com/aseklis" target="_blank">  <button  class="btn-s-1"><span><i class="fa-solid fa-mug-hot"></i></span></button> </a>
+        <a href="https://www.instagram.com/aseklis/" target="_blank"> <button class="btn-s-2"><span><i class="fa-brands fa-square-instagram"></i></span></button> </a>
+        <a href="https://twitter.com/aseklis" target="_blank">  <button class="btn-s-3"><span><i class="fa-brands fa-square-twitter"></i></span></button> </a>
+        <div class="btn-contact"><button >Contact</button></div>
+    </nav>
+   
+    <button class="dark-mode" id="switch" aria-label="Dark mode">
+        <span><i class="fa-regular fa-sun"></i></span>
+        <span><i class="fa-regular fa-moon"></i></span>
+      </button>
+</header>
+<main class="main">
+    <div class="container-1">
+        <h2 class="title-1">    
+My secret message for you &#128152
+        </h2>
+        <div class="input-text">
+            <input class="text-1"  onkeyup="replace (this)" type="text" id="message" placeholder="&#128275Write your love message&#128275"/>
+        </div>
+        <button id="encrypt" class="btn-1">Encrypt</button>
+        <button id="decrypt" class="btn-2">Decrypt</button>
+    </div>
+    <div class="container-2">
+        <h2 class="title-2">Your encrypted message &#128521
+
+                    </h2>
+        <div class="output-text">
+            <input class="text-2" type="text" id="result" placeholder="???"> 
+        </div>
+        <button id="copy" class="btn-3">Copy</button>
+
+        <div>
+        <button  class="share-btn">Share<i class="fa-solid fa-share-nodes"></i></button>
+
+
+        <div class="share-options">
+            <p class="title">Share on</p>
+      
+        <div class="social-media">
+
+            <a class="instagram" target="blank"> <button class="btn-share"><i class="fa-brands fa-square-instagram"></i></button>
+            </a>
+            
+            <a class="twitter" target="blank">   <button class="btn-share"><i class="fa-brands fa-square-twitter"></i></button></a>
+
+             <a class="facebook" target="blank"><button class="btn-share"><i class="fa-brands fa-square-facebook"></i></button>  </a>
+
+             <a class="whatsapp" target="blank">    <button class="btn-share"><i class="fa-brands fa-square-whatsapp"></i></button></a>
+            
+             <a class="linkedin" target="blank"> <button class="btn-share"><i class="fa-brands fa-linkedin"></i></button></a>
+
+             <a class="telegram" target="blank">   <button class="btn-share"><i class="fa-brands fa-telegram"></i></i></button></a>
+
+             <a class="reddit" target="blank">   <button class="btn-share"><i class="fa-brands fa-square-reddit"></i></i></button></a>
+
+             
+
+        </div>
+      
+        </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <div class="date">
+            <h2 class="date-1">Ammi D.B. 05-14-2023 by Aklesclosqui</h2>
+        </div>
+       <div class="footer-icon"><i class="fa-solid fa-bolt"></i></div>
+    </div>
+    </footer>
+
+</body>
+<script src="app.js"></script>
+</html>
