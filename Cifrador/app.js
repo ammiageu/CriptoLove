@@ -138,8 +138,7 @@ const link = encodeURI(window.location.href);
 const msg = encodeURIComponent('Hey, I found this article');
 const title = encodeURIComponent('Article or Post Title Here');
 
-const instagram = document.querySelector('.instagram');
-instagram.href = `https://www.instagram.com/share.php?u=${link}`;
+
 
 const twitter = document.querySelector('.twitter');
 twitter.href = `http://twitter.com/share?&url=${link}&text=${msg}&hashtags=javascript,programming`;
